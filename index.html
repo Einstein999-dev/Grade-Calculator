@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Maharastra Result 2022</title>
+</head>
+<body>
+    <!-- header section start -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.gif" class="img-fluid">
+            </a>
+            <div class="text-center">
+                <h1>MAHARASTRA STATE BOARD OF SECONDARY AND HIGHER <br>
+                    SECONDARY EDUCATION, PUNE</h1>
+            </div>
+        </div>
+    </nav>
+        <div class="row">
+            <h4 class="text-uppercase text-center text-danger">Grade Calculator</h4>
+        </div>
+    </section>
+    <!-- header section ends  -->
+    <!-- input section start  -->
+    <section class="form_wrapper">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 pt-5 col-sm">
+                    <div class="card p-5">
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-10 text-center">
+                                <div class="mb-3">
+                                    <label>Marathi :</label>
+                                    <input type="number" id="One" placeholder="Marks">
+                                </div>
+                                <div class="mb-3">
+                                    <label>English :</label>
+                                    <input type="number" id="Two" placeholder="Marks">
+                                </div>
+                                <div class="mb-3">
+                                    <label>Maths :</label>
+                                    <input type="number" id="Three" class="ms-3" placeholder="Marks">
+                                </div>
+                                <div class="mb-3">
+                                    <label>Hindi :</label>
+                                    <input type="number" id="Four" class="ms-4" placeholder="Marks">
+                                </div>
+                                <div class="mb-3">
+                                    <label>History :</label>
+                                    <input type="number" id="Five" placeholder="Marks" >
+                                </div>
+                                <button onclick="return calculate()">calculate</button>
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>                        
+                    </div>
+                </div>
+                <!-- print section starts  -->
+                <div class="col-lg-4 pt-5 col-sm">
+                    <div class="card p-5">
+                        <h3 class="text-center">Grade Result</h3>
+                        ----------------------------------------
+                        <div class="obtain text-start">
+                            <label for="">Obtain Marks: <span id="obtain"></span> </label>
+                        </div>
+                        ----------------------------------------
+                        <div class="percentage">
+                            <label for="">Percentage: <span id="perc"></span> %</label>
+                        </div>
+                        ----------------------------------------
+                        <div class="grade">
+                            <label for="">Grade: <span id="grade"></span> </label>
+                        </div>
+                        ----------------------------------------
+                        <div class="remark">
+                            <label for="">Remark: <span id="remark"></span> </label>
+                        </div>
+                        ----------------------------------------
+                        <div class="luck">
+                            <h3> <span id="luck"> </span> </h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- print section ends  -->
+            </div>
+        </div>
+    </section>
+    <!-- input section ends  -->
+
+</body>
+</html> 
+
+
