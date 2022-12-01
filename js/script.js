@@ -17,7 +17,7 @@ function calculate(){
         let perc = obtain / 500 * 100;
         document.getElementById('perc').innerHTML = perc;
         // remark statment 
-        if (a > 39 && b > 39 && c > 39 && d > 39 && e > 39) {
+        if (a > 34 && b > 3 && c > 34 && d > 34 && e > 34) {
             document.getElementById('remark').innerHTML = 'Pass';
         }else{
             document.getElementById('remark').innerHTML = ' Fail';
